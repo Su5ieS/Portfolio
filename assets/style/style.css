@@ -84,6 +84,7 @@ p {
 }
 
 #contactMe {
+
     background-color: rgb(121, 128, 131);
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -91,6 +92,9 @@ p {
     margin-top: 6px;
 }
 
+#contactMe a{
+font-size: 20px;
+}
 #contactMe h2{
     text-align: left;
 }
@@ -120,4 +124,27 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+@media screen and (max-width: 992px){
+    .row {
+        display:flex;
+        align-items: center;
+
+    }
+
+    header h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #rightSide{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        padding-left:2rem;
+    }
 }
