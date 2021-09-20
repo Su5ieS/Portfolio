@@ -144,5 +144,13 @@ footer h2 {
     .hero {
         max-height: 75px  ;
     }
+
+    header h1 {
+         padding-left: 1rem;
+    }
+
+    #contactMe a {
+        font-size: 16px;
+    }
 }
 
