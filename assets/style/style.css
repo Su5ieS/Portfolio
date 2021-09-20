@@ -4,13 +4,8 @@
 #myWork {
     background-color:  rgb(121, 128, 131);
     padding-top: 1rem;
-    margin-left: 1rem;
     margin-top: 6px;
     width: 100%;
-}
-
-.col-4 {
-    margin-left: 0;
 }
 
 /* styles header */
@@ -23,12 +18,12 @@ header {
 /* styles h1 element of the header */
 header h1 {
     font-size: 60px;
-    padding-left: 6rem;
+    padding-left: 8rem;
 }
 
-/* adds / styles image bar under header */
+/* styles image bar under header */
 .hero {
-    height: 175px;
+    height: 150px;
     width: 100%;
     margin-bottom: 1px;
     margin-top: 1px;
@@ -59,16 +54,16 @@ p {
     padding-left: .25rem;
     padding-bottom: 1rem;
     justify-content: center;
-    margin-right: 0;
 }
 
 
-/* styles the picture in the aside*/
+/* styles the picture*/
 .center {
     display: inline-block;
     width: 95%;
 }
 
+/*about me section styling*/
 #aboutMe {
     background-color: rgb(121, 128, 131);
     padding-top: 1rem;
@@ -78,39 +73,35 @@ p {
 }
 
 #aboutMe p {
-    padding: 0 1rem;
+    padding: 0 1.25rem;
     color:white;
-    font-size: 22px;
+    font-size: 18px;
 }
 
+/* Contact me section styling */
 #contactMe {
-
     background-color: rgb(121, 128, 131);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     width: 95%;
     margin-top: 6px;
 }
-
 #contactMe a{
 font-size: 20px;
 }
 #contactMe h2{
     text-align: left;
 }
-
 #contactMe h3 {
     margin-left: 2rem;
 }
-/* styles the image of linkedin the aside*/
 
+/* styles the image of linkedin the aside*/
 #linkedin img {
     max-width: 40px;
     max-height: 40px;
 }
 
 /* styles the footer*/
-
 footer {
     padding: 30px;
     clear: both;
@@ -130,12 +121,6 @@ footer h2 {
     .row {
         display:flex;
         align-items: center;
-
-    }
-
-    header h1 {
-        text-align: center;
-        margin-left: 0;
     }
 }
 
@@ -143,8 +128,21 @@ footer h2 {
     #rightSide{
         display: flex;
         flex-direction: column;
-        width:100%;
+        width:95%;
         align-items: center;
         padding-left:2rem;
     }
 }
+
+@media screen and (max-width: 555px){
+
+    .container-md {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero {
+        max-height: 75px  ;
+    }
+}
+
