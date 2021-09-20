@@ -1,0 +1,115 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+#myWork {
+    background-color:  rgb(121, 128, 131);
+    padding-top: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.col-4 {
+    margin-left: 0;
+}
+
+/* styles header */
+header {
+    padding: 25px;
+    background-color: rgb(121, 128, 131);
+    color: #ffffff;
+}
+
+/* styles h1 element of the header */
+header h1 {
+    font-size: 60px;
+    padding-left: 6rem;
+}
+
+/* adds / styles image bar under header */
+.hero {
+    height: 175px;
+    width: 100%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    background-image: url("3272183.jpg");;
+    background-size: cover;
+    background-position: center;
+}
+
+/* syles h2 elemen in main section of HTML */ 
+main h2 {
+    font-size: 36px;
+    color: white;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+.btn {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+/* styles the p elements */
+p {
+    font-size: 18px;
+}
+
+.row {
+    padding-left: .25rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    margin-right: 0;
+}
+
+
+/* styles the picture in the aside*/
+.center {
+    display: inline-block;
+    width: 95%;
+}
+
+#aboutMe {
+    background-color: rgb(121, 128, 131);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 95%;
+}
+
+#contactMe {
+    background-color: rgb(121, 128, 131);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 95%;
+    margin-top: 0;
+}
+
+#contactMe h2{
+    text-align: left;
+}
+
+#contactMe h3 {
+    margin-left: 2rem;
+}
+/* styles the image of linkedin the aside*/
+
+#linkedin img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+/* styles the footer*/
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* styles the h2 element in the footer*/
+
+footer h2 {
+    font-size: 20px;
+}
